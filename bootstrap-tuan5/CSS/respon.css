@@ -95,7 +95,6 @@ hr.hr1{
     margin-bottom: 50px;
 }
 div.content4{
-    display: inline-flex;
     text-align: center;
     justify-content: space-between;
     margin-top: 28px;
@@ -117,14 +116,14 @@ img.pic3{
     width: 20vw;
 }
 .Graphic{
-    margin-right: 0.5vw;
+    /* margin-right: 0.5vw; */
 }
 .App{
-    margin-left: 0.5vw;
+    /* margin-left: 0.5vw; */
 }
 .Web{
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
+    /* margin-left: 0.5vw;
+    margin-right: 0.5vw; */
 }
 img.pic6{
     margin-bottom: 30px;
