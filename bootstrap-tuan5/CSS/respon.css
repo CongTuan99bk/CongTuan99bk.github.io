@@ -1,5 +1,8 @@
-*{
-    margin:0 auto;
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 nav.navbar{
@@ -34,12 +37,15 @@ div.cross{
 img.pic0{
     margin-top: 10px;
 }
+div.collapse{
+    margin-right: 200px !important;
+}
 a.login{
     color: rgb(255,195,3) !important;
     border: none !important;
-    margin-left: 20px !important;
-    margin-top: 10px !important;
-    padding-top: 2px !important;
+    margin-left: 20px;
+    margin-top: 10px ;
+    padding-top: 2px;
     padding-left: 30px !important;
     padding-right: 30px !important;
     background-color: rgb(255,49,80) !important;
@@ -90,12 +96,15 @@ p.para2{
 }
 hr.hr1{
     width: 100px;
-    margin-top: 7px;
     background-color: rgb(80,216,211);
     margin-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 7px;
 }
 div.content4{
     /* text-align: center; */
+    text-align: center;
+    justify-content: space-between;
     margin-top: 28px;
 }
 p.title{
@@ -114,18 +123,12 @@ img.pic3{
 .Graphic,.Web,.App{
     width: 20vw;
 }
-/* .Graphic{
-    margin-right: 0.5vw;
-}
-.App{
-    margin-left: 0.5vw;
-}
-.Web{
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-} */
+
 img.pic6{
     margin-bottom: 30px;
+} 
+ul.red{
+    margin-top: 30px;
 }
 
 div.content5{
@@ -185,9 +188,15 @@ li.l4{
 }
 
 /*--------main 2 --------------*/
-div.content6{
+/* div.content6{
     display: inline-flex;
     margin-top: 40px;
+} */
+div.content6{
+    margin: 0 auto;
+    background-color: rgb(239,247,250);
+    text-align: center;
+    padding-bottom: 40px;
 }
 p.para4{
     color: rgb(243,252,251);
@@ -198,28 +207,33 @@ span.under{
     color: rgb(30,67,85);
     font-size: 12px;
 }
+form.but1{
+    margin: 0 auto;
+}
 button.but{
     border: none;
     background-color: rgb(51,209,204);
     width: 14.2vw;
     height: 22vh;
     margin-bottom: 20px;
+    margin-right: 85px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+p.none1{
+    width: 14.2vw;
+    height: 22vh;
+    background-color: rgb(255,255,255);
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 p.none{
     width: 14.2vw;
     height: 22vh;
     background-color: rgb(255,255,255);
     margin-bottom: 20px;
-}
-div.square-left{
-    margin-right: 10px;
-}
-div.square{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-div.square-right{
-    margin-left: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 input.want-more{
@@ -243,8 +257,7 @@ p.para5{
     margin-bottom: 40px;
 }
 div.content8{
-    display: flex;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 div.part1{
     text-align:left;
@@ -317,16 +330,6 @@ p#f2{
     margin: 0px;
     height: 23vh;
 }
-div.part3{
-    margin-right: 10px;
-}
-div.part4{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-div.part5{
-    margin-left: 10px;
-}
 
 div.content11{
     margin-top: 40px;
@@ -365,7 +368,9 @@ div.content13{
 }
 
 section.content14{
-    display: flex;
+    margin-top: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 div.part6{
     width: 19vw;
@@ -381,16 +386,6 @@ p.infor{
     color: rgb(39,53,75);
     font-size: 14px;
     font-weight: bold;
-}
-div.one{
-    margin-right: 1vw;
-}
-div.second{
-    margin-left: 1vw;
-    margin-right: 1vw;
-}
-div.third{
-    margin-left: 1vw;
 }
 form.four{
     margin-bottom: 40px;
@@ -444,11 +439,11 @@ button.btn{
 }
 
 footer.content16{
-    display: flex;
     background-color: rgb(25,40,63);
     padding-top: 30px;
     padding-bottom: 20px;
     color: rgb(139,155,164);
+    margin: 0 auto;
 }
 
 div.part7{
@@ -502,24 +497,14 @@ ul.link-pic{
 }
 li.pic-link{
     margin-left: 0px;
+    margin-right: 30px;
 }
 button.but-nav{
     border: none;
     border-radius: 100%;
 }
-div.part7{
-    margin-right: 30px;
-}
-div.part8{
-    margin-left: 30px;
-    margin-right: 30px;
-}
-div.part9{
-    margin-left: 30px;
-    margin-right: 30px;
-}
-div.part10{
-    margin-left: 30px;
+form.five{
+    text-align: left;
 }
 
 /*-------------------ipad----------------*/
@@ -551,24 +536,22 @@ div.part10{
     p#f1{
         height: 5vh;
     }
+    div.content8{
+        padding-left: 100px;
+    }
     div.content9{
         
         padding-bottom: 100px;
     }
-    div.part7{
-        margin-right:10px;
-    }
-    div.part8{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    div.part9{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    div.part10{
-        margin-left: 10px;
-    }
+   input.email{
+       width: 170px;
+       padding-left: 0px;
+       padding-right: 0px;
+   }
+   li.pic-link{
+    margin-right: 10px;
+}
+    
 }
 
 /*----------------------mobile---------------------*/
@@ -656,19 +639,6 @@ div.part10{
     span.under{
         font-size: 8px;
     }
-    .Graphic,.Web,.App{
-        width: 20vw;
-    }
-    .Graphic{
-        margin-right: 5vw;
-    }
-    .App{
-        margin-left: 5vw;
-    }
-    .Web{
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
     .dropbtn {
         background-color: #4CAF50;
         color: white;
@@ -679,6 +649,14 @@ div.part10{
       } 
       li.link-hide{
           display: none;
+      }
+      a.login{
+          width: 60px;
+          padding-left: 15px !important;
+          margin-left: 320px !important;
+      }
+      li.nav-item{
+          text-align: right;
       }
       div.content1{
           margin-left: 10px;
